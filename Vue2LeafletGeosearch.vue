@@ -1,6 +1,3 @@
-<!--
-This component adds a GeoSearchControl to Leaflet instance
- -->
 <template lang="html">
   <div>
 
@@ -33,7 +30,7 @@ export default {
     remove() {
       if (this.markerCluster) {
         this.$parent.removeLayer(this.markerCluster);
-      }      
+      }
     },
     add() {
       if (this.$parent._isMounted) {
